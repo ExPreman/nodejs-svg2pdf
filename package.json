@@ -28,7 +28,10 @@
   "dependencies": {
     "@echo-health/koa-prometheus-exporter": "0.0.9",
     "amqplib": "*",
+    "aws-sdk": "^2.344.0",
+    "busboy": "^0.2.14",
     "config": "*",
+    "dotenv": "^6.1.0",
     "koa": ">=2.5.1",
     "koa-body": ">=2.5.x",
     "koa-router": ">=7.4.x",
