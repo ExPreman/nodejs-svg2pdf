@@ -5,9 +5,10 @@ const router = new Router();
 
     router
         // Kubernetes features
-        .get('/api/v1/relocation/main/readyz',  readyz)
-        .get('/api/v1/relocation/main/healthz', healthz)
-        .get('/api/v1/relocation/main/version', version)
+        // .get('/api/v1/relocation/main/metrics',  metrics)
+        .get('/readyz',  readyz)
+        .get('/healthz', healthz)
+        .get('/version', version)
 
     ;
 

@@ -18,7 +18,7 @@ app.use(allowedMethods());
 
 app.use(httpMetrics);
 app.use(prometheus.middleware({
-    path: "/api/v1/relocation/main/metrics",
+    path: "/metrics",
 }));
 app.use(routesKubernetes());
 app.use(allowedKubernetesMethods());
